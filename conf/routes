@@ -16,3 +16,6 @@ GET        /config                 controllers.ConfigController.getConfig
 GET        /action                 controllers.ActionController.echo
 GET        /action/redirect        controllers.ActionController.redirect
 GET        /action/result          controllers.ActionController.result
+
+# Routes
+GET        /routes/:id             controllers.RoutesController.show(id: Long)
